@@ -1,0 +1,8 @@
+Pruebas de terminal - Problema03
+Comando: dotnet run --no-build --project Problema03/Problema03.csproj
+
+> Entrada: 2
+Ha seleccionado: Retirar
+
+> Entrada: 9
+Opción no válida
