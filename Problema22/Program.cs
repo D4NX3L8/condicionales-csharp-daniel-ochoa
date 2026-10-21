@@ -4,8 +4,12 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Calculadora básica");
+        Console.Write("Ingresa el primer número entero: ");
         int primero = int.Parse(Console.ReadLine() ?? string.Empty);
+        Console.Write("Ingresa el segundo número entero: ");
         int segundo = int.Parse(Console.ReadLine() ?? string.Empty);
+        Console.Write("Ingresa el operador (+, -, * o /): ");
         char operador = char.Parse(Console.ReadLine() ?? string.Empty);
         double resultado = operador switch
         {
