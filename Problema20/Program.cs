@@ -4,6 +4,8 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Consulta de días del mes (año no bisiesto)");
+        Console.Write("Ingresa el número del mes (1 = enero, ..., 12 = diciembre): ");
         int mes = int.Parse(Console.ReadLine() ?? string.Empty);
         string resultado = mes switch
         {
