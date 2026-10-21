@@ -1,0 +1,9 @@
+Pruebas de terminal - Problema04
+Comando: dotnet run --no-build --project Problema04/Problema04.csproj
+
+> Entrada: 10
+Batería baja: conecte el cargador
+Nivel actual: 10 %
+
+> Entrada: 80
+Nivel actual: 80 %
