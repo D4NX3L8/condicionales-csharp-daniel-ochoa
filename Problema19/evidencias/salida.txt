@@ -1,0 +1,14 @@
+Pruebas de terminal - Problema19
+Comando: dotnet run --no-build --project Problema19/Problema19.csproj
+
+> Entrada: 45
+Sin infracción
+
+> Entrada: 68
+Multa leve
+
+> Entrada: 95
+Multa gravísima e inmovilización
+
+> Entrada: -1
+Lectura inválida
