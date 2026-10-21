@@ -1,0 +1,11 @@
+Pruebas de terminal - Problema12
+Comando: dotnet run --no-build --project Problema12/Problema12.csproj
+
+> Entrada: false / 0
+Crédito rechazado
+
+> Entrada: true / 3000000
+Crédito alto aprobado
+
+> Entrada: true / 1800000
+Crédito básico aprobado
