@@ -4,6 +4,8 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Consulta de país por código");
+        Console.Write("Ingresa el código de dos letras (CO, MX, AR, PE o CL): ");
         string codigo = (Console.ReadLine() ?? string.Empty).Trim().ToUpperInvariant();
         string pais = codigo switch
         {
