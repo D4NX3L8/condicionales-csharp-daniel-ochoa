@@ -4,7 +4,10 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Piedra, papel o tijera");
+        Console.Write("Jugador 1, escribe piedra, papel o tijera: ");
         string jugador1 = (Console.ReadLine() ?? string.Empty).Trim().ToLowerInvariant();
+        Console.Write("Jugador 2, escribe piedra, papel o tijera: ");
         string jugador2 = (Console.ReadLine() ?? string.Empty).Trim().ToLowerInvariant();
         string resultado;
 
