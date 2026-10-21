@@ -1,0 +1,20 @@
+Pruebas de terminal - Problema13
+Comando: dotnet run --no-build --project Problema13/Problema13.csproj
+
+> Entrada: CO
+Colombia
+
+> Entrada: MX
+México
+
+> Entrada: AR
+Argentina
+
+> Entrada: PE
+Perú
+
+> Entrada: CL
+Chile
+
+> Entrada: US
+País no registrado
