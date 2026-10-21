@@ -1,0 +1,14 @@
+Pruebas de terminal - Problema20
+Comando: dotnet run --no-build --project Problema20/Problema20.csproj
+
+> Entrada: 4
+30 días
+
+> Entrada: 2
+28 días
+
+> Entrada: 12
+31 días
+
+> Entrada: 13
+Mes inválido
