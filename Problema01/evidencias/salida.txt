@@ -1,0 +1,8 @@
+Pruebas de terminal - Problema01
+Comando: dotnet run --no-build --project Problema01/Problema01.csproj
+
+> Entrada: 17
+Puede votar
+
+> Entrada: 15
+Aún no puede votar
