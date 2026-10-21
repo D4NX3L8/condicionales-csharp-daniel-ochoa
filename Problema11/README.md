@@ -1,10 +1,17 @@
-# Problema $num.
+# Problema 11. Semáforo inteligente
 
-**Estructura elegida:** $structures[$((i-1))]
-**Justificación:** $justifs[$((i-1))]
+**Estructura elegida:** enum y switch.
+
+**Justificación:** Un enum restringe los estados posibles y el switch asigna una instrucción a cada uno.
 
 ## Evidencia
-<incluye la captura PNG>
+
+La salida de la ejecución de prueba en terminal se guarda en [evidencias/salida.txt](evidencias/salida.txt).
 
 ## Ejecución
-    dotnet run
+
+```bash
+dotnet run --project Problema11.csproj
+```
+
+Los datos se ingresan por líneas en el orden solicitado por el ejercicio.
