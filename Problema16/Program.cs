@@ -4,7 +4,10 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Ubicación de un dron en el plano cartesiano");
+        Console.Write("Ingresa la coordenada X: ");
         int x = int.Parse(Console.ReadLine() ?? string.Empty);
+        Console.Write("Ingresa la coordenada Y: ");
         int y = int.Parse(Console.ReadLine() ?? string.Empty);
         string ubicacion = (x, y) switch
         {
