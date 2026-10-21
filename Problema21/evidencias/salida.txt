@@ -1,0 +1,11 @@
+Pruebas de terminal - Problema21
+Comando: dotnet run --no-build --project Problema21/Problema21.csproj
+
+> Entrada: 1
+Tienes 1 artículo en el carrito
+
+> Entrada: 3
+Tienes 3 artículos en el carrito
+
+> Entrada: 0
+Tienes 0 artículos en el carrito
