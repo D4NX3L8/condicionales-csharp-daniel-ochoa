@@ -1,0 +1,8 @@
+Pruebas de terminal - Problema14
+Comando: dotnet run --no-build --project Problema14/Problema14.csproj
+
+> Entrada: 3.5
+Nota: 3,5 - Aprobado
+
+> Entrada: 2.9
+Nota: 2,9 - Reprobado
