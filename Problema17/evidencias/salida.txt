@@ -1,0 +1,17 @@
+Pruebas de terminal - Problema17
+Comando: dotnet run --no-build --project Problema17/Problema17.csproj
+
+> Entrada: play
+Reproduciendo...
+
+> Entrada: pause
+En pausa
+
+> Entrada: stop
+Detenido
+
+> Entrada: next
+Siguiente canción
+
+> Entrada: other
+Comando no reconocido
