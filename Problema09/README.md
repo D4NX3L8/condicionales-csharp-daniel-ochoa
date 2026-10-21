@@ -1,10 +1,17 @@
-# Problema $num.
+# Problema 09. Año bisiesto
 
-**Estructura elegida:** $structures[$((i-1))]
-**Justificación:** $justifs[$((i-1))]
+**Estructura elegida:** expresión booleana.
+
+**Justificación:** La regla combina divisibilidad por 4, 100 y 400 en una condición lógica.
 
 ## Evidencia
-<incluye la captura PNG>
+
+La salida de la ejecución de prueba en terminal se guarda en [evidencias/salida.txt](evidencias/salida.txt).
 
 ## Ejecución
-    dotnet run
+
+```bash
+dotnet run --project Problema09.csproj
+```
+
+Los datos se ingresan por líneas en el orden solicitado por el ejercicio.
