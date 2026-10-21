@@ -5,6 +5,8 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Calculadora de tarifa de envío");
+        Console.Write("Ingresa el peso del paquete en kilogramos (puedes usar coma o punto): ");
         double peso = double.Parse((Console.ReadLine() ?? string.Empty).Replace(',', '.'), CultureInfo.InvariantCulture);
         int tarifa;
         if (peso <= 0)
