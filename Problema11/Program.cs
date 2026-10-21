@@ -11,6 +11,8 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Semáforo inteligente");
+        Console.Write("Ingresa el estado del semáforo (Rojo, Amarillo o Verde): ");
         string entrada = Console.ReadLine() ?? string.Empty;
         if (!Enum.TryParse(entrada, true, out EstadoSemaforo estado) || !Enum.IsDefined(estado))
         {
