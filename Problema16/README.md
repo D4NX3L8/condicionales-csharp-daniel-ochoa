@@ -6,7 +6,7 @@
 
 ## Evidencia
 
-La salida de la ejecución de prueba en terminal se guarda en [evidencias/salida.txt](evidencias/salida.txt).
+La captura de la ejecución en terminal está en [evidencias/image.png](evidencias/image.png).
 
 ## Ejecución
 
