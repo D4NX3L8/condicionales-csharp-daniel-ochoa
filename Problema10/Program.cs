@@ -5,6 +5,8 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Analizador de datos recibidos");
+        Console.Write("Ingresa un texto, un número entero, un decimal o un booleano (true/false): ");
         string entrada = Console.ReadLine() ?? string.Empty;
         object dato;
         if (bool.TryParse(entrada, out bool booleano))
