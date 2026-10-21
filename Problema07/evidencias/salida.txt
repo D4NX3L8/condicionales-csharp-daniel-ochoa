@@ -1,0 +1,11 @@
+Pruebas de terminal - Problema07
+Comando: dotnet run --no-build --project Problema07/Problema07.csproj
+
+> Entrada: 8
+Positivo
+
+> Entrada: -5
+Negativo
+
+> Entrada: 0
+Cero
