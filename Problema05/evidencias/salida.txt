@@ -1,8 +1,0 @@
-Pruebas de terminal - Problema05
-Comando: dotnet run --no-build --project Problema05/Problema05.csproj
-
-> Entrada: 14 / 9
-El mayor es 14
-
-> Entrada: -2 / 3
-El mayor es 3

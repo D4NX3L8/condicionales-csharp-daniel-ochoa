@@ -1,5 +1,0 @@
-Pruebas de terminal - Problema15
-Comando: dotnet run --no-build --project Problema15/Problema15.csproj
-
-> Entrada: 70 / 1.75
-IMC: 22,9 - Peso normal
