@@ -1,0 +1,15 @@
+Pruebas de terminal - Problema02
+Comando: dotnet run --no-build --project Problema02/Problema02.csproj
+
+> Entrada: 0.5
+Tarifa: $8.000
+
+> Entrada: 7
+Tarifa: $32.000
+
+> Entrada: 25
+Tarifa: $60.000
+
+> Entrada: -3
+Peso inválido
+Tarifa: $0
