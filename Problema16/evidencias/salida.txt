@@ -1,0 +1,14 @@
+Pruebas de terminal - Problema16
+Comando: dotnet run --no-build --project Problema16/Problema16.csproj
+
+> Entrada: 3 / 4
+Primer cuadrante
+
+> Entrada: -2 / -7
+Tercer cuadrante
+
+> Entrada: 0 / 0
+Origen
+
+> Entrada: 0 / 5
+Sobre un eje
