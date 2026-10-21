@@ -4,6 +4,12 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Cajero automático");
+        Console.WriteLine("1 = Consultar saldo");
+        Console.WriteLine("2 = Retirar");
+        Console.WriteLine("3 = Depositar");
+        Console.WriteLine("4 = Salir");
+        Console.Write("Elige una opción del menú: ");
         int opcion = int.Parse(Console.ReadLine() ?? string.Empty);
         string accion = opcion switch
         {
