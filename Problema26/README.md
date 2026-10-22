@@ -1,10 +1,15 @@
-# Problema $num.
+# Problema 26. Peaje
 
-**Estructura elegida:** $structures[$((i-1))]
-**Justificación:** $justifs[$((i-1))]
+**Estructura elegida:** expresión `switch`.
+**Justificación:** Cada letra corresponde a una tarifa fija y la alternativa predeterminada lanza la excepción requerida para categorías desconocidas. La letra se normaliza a mayúscula para aceptar ambas formas.
 
 ## Evidencia
-<incluye la captura PNG>
+La captura de este ejercicio se agregará posteriormente a la carpeta de evidencias.
 
 ## Ejecución
-    dotnet run
+
+```bash
+dotnet run --project Problema26.csproj
+```
+
+La categoría del vehículo se ingresa por consola.
