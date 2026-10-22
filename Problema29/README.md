@@ -1,10 +1,15 @@
-# Problema $num.
+# Problema 29. Control de acceso a la sede
 
-**Estructura elegida:** $structures[$((i-1))]
-**Justificación:** $justifs[$((i-1))]
+**Estructura elegida:** expresión `switch` con patrones relacionales y operador lógico `&&`.
+**Justificación:** La decisión depende del rol y del intervalo horario correspondiente. Primero se valida que la hora esté entre 0 y 23; luego se aplican los permisos específicos de cada rol.
 
 ## Evidencia
-<incluye la captura PNG>
+La captura de este ejercicio se agregará posteriormente a la carpeta de evidencias.
 
 ## Ejecución
-    dotnet run
+
+```bash
+dotnet run --project Problema29.csproj
+```
+
+El rol y la hora se ingresan por consola.
